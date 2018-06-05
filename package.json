@@ -1,0 +1,28 @@
+{
+  "name": "fake-uuid",
+  "version": "1.0.0",
+  "description": "Get deterministic and easy to read UUID for simple id",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -I '__core-js_shared__' --flat --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozum/fake-uuid.git"
+  },
+  "keywords": [
+    "uuid",
+    "fake",
+    "test"
+  ],
+  "author": "Özüm Eldoğan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozum/fake-uuid/issues"
+  },
+  "homepage": "https://github.com/ozum/fake-uuid#readme",
+  "devDependencies": {
+    "code": "^5.2.0",
+    "lab": "^15.4.5"
+  }
+}
